@@ -47,6 +47,9 @@ Generamos una clave publica y lo añadiremos al "authorized_keys" del nodo admin
 >![ssh-copy-id](https://user-images.githubusercontent.com/37052581/192109882-4c3ca2aa-8e9a-4060-8319-351c8bbc42a1.png)
 >![nodo-ssh-copy-id](https://user-images.githubusercontent.com/37052581/192109941-2b7426fe-9775-4990-a47e-20c3cede18c1.png)
 
+Comprobamos que ansible tiene acceso al nodo:
+> ![node-access](https://user-images.githubusercontent.com/37052581/192110214-e9a0deb0-8642-4240-9f42-d54dd0858572.png)
+- En el comando se especifica -u **(usuario)** y **nodo** como usuario del host administrado.
 
 
 
